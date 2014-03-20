@@ -4,5 +4,8 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def ourskills
+  end
   
 end
