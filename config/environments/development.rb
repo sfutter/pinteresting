@@ -31,3 +31,5 @@ Pinteresting::Application.configure do
   #note to set this to your actual host name
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
 end
+
+
