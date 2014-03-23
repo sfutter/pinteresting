@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 1.2'
 #bootstrap sass gem
 gem 'bootstrap-sass', '~> 3.1.1'
 
+gem 'devise', '~>3.2.4'
+
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
@@ -32,7 +34,7 @@ group :development, :test do
 end
 
 group :production do
-# use postgres	
+# use postgres for heroku
 	gem 'pg'
 	gem 'rails_12factor'
 end
